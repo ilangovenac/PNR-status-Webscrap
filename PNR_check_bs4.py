@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-pnr=input('Enter PNR number: ')
+pnr=input('Enter PNR number: ')#4589632578
 url='https://www.makemytrip.com/railways/pnrsearch/?pnr='+'pnr'
 
 src=requests.get(url)
